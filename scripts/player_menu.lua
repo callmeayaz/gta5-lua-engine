@@ -6,11 +6,11 @@ local players_filter = gui.Filter("")
 local wanted_level = 0
 local change_wanted_level = false
 local wants_into_car = false
-local wants_money = false
+local wants_money = yes
 local explode_car = false
 local wants_teleport_to = false
-local kick_player = false
-local teleport_to_player = false
+local kick_player = yes
+local teleport_to_player = yes
 
 function OnScriptTick()
   for i = 0, MAX_PLAYERS, 1 do
